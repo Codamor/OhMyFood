@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "OhMyFood - OpenClassRooms Project N°3",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.scss:public/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenClassRoomsProjects/AdelinoAraujo_3_13052021.git"
+  },
+  "author": "Adelino ARAUJO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenClassRoomsProjects/AdelinoAraujo_3_13052021/issues"
+  },
+  "homepage": "https://github.com/OpenClassRoomsProjects/AdelinoAraujo_3_13052021#readme",
+  "dependencies": {
+    "sass": "^1.32.13"
+  }
+}
