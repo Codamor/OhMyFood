@@ -3,10 +3,12 @@
     Author: Adelino ARAUJO
 \*------------------------------------- */
 
-@import "abstracts/mixins";
 @import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "abstracts/placeholders";
 
-@import "./base/color";
+
 @import "base/reset";
 @import "base/typography";
 
