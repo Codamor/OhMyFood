@@ -1,3 +1,93 @@
 /*-----------------------*\
     MAIN
 \*---------------------- */
+
+.presentation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*---- explore ---- */
+
+.explore{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 286px;
+  background-color: $color-light-grey;
+  &__title{
+    margin-top: 35px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  &__sub-title{
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+  }
+  &__button{
+    width: 218px;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px gray;
+    background: linear-gradient(#e571DA, #a05adc);
+    font-weight: 500;
+    color: white;
+  }
+}
+
+/*---- information steps ---- */
+
+.information{
+  width: 100%;
+  height: 440px;
+  padding: 50px 20px;
+  &__title{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  &__steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+  }
+}
+
+.step-card {
+  display: flex;
+  align-items: center;
+  width: 325px;
+  height: 75px;
+  margin: 10px 0;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px lightgray;
+  background-color: #f6f6f6;
+  &__number {
+    position: relative;
+    right: 12px;
+    width: 25px;
+    height: 25px;
+    padding-top: 4px;
+    border-radius: 50px;
+    background-color: $color-primary;
+    color: white;
+    text-align: center;
+  }
+  &__icon::before{
+    margin-left: 8px;
+    content: "\f3cd";
+    font-family: "Font Awesome 5 Free";
+    font-size: 22px;
+    font-weight: 700;
+    color: grey;
+  }
+  &__text{
+    margin-left: 28px;
+  }
+}

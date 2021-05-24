@@ -108,16 +108,101 @@ body {
   font-weight: 700;
   color: black;
 }
+.banner__location {
+  font-weight: 500;
+}
 
+/*-----------------------*\
+    MAIN
+\*---------------------- */
 .presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/*-----------------------*\
-    MAIN
-\*---------------------- */
+/*---- explore ---- */
+.explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 286px;
+  background-color: #f6f6f6;
+}
+.explore__title {
+  margin-top: 35px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.explore__sub-title {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+}
+.explore__button {
+  width: 218px;
+  height: 50px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 20px gray;
+  background: linear-gradient(#e571DA, #a05adc);
+  font-weight: 500;
+  color: white;
+}
+
+/*---- information steps ---- */
+.information {
+  width: 100%;
+  height: 440px;
+  padding: 50px 20px;
+}
+.information__title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.information__steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.step-card {
+  display: flex;
+  align-items: center;
+  width: 325px;
+  height: 75px;
+  margin: 10px 0;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px lightgray;
+  background-color: #f6f6f6;
+}
+.step-card__number {
+  position: relative;
+  right: 12px;
+  width: 25px;
+  height: 25px;
+  padding-top: 4px;
+  border-radius: 50px;
+  background-color: #9356DC;
+  color: white;
+  text-align: center;
+}
+.step-card__icon::before {
+  margin-left: 8px;
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-size: 22px;
+  font-weight: 700;
+  color: grey;
+}
+.step-card__text {
+  margin-left: 28px;
+}
+
 /*-----------------------*\
     NAVIGATION
 \*---------------------- */
