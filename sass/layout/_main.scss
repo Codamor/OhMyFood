@@ -115,46 +115,36 @@
   height: 250px;
   border-radius: 25px;
   overflow: hidden;
-
   &__image {
     position: relative;
     width: 100%;
     height: 175px;
     background-color: blue; /* to remove */
   }
-
   &__flag {
     position: absolute;
     top: 14px;
     right: 12px;
     width: 80px;
     height: 30px;
-    background-color: #15DEA5; /* to remove */
-  }
-
-  &__flag {
-    position: absolute;
-    top: 14px;
-    right: 12px;
-    width: 80px;
-    height: 30px;
-    background-color: #15DEA5; /* to remove */
+    background-color:$color-tertiary;
+    font-weight: 700;
+    color: $color-flag;
+    text-align: center;
     &--hide {
       display: none;
     }
   }
-    &__content {
-    position: relative;
-    width: 100%;
-    height: 75px;
-    background-color: #fff;
+  &__content {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  background-color: #fff;
   }
-
   &__information {
     width: 100%;
     padding-left: 15px;
   }
-
   &__like {
     position: absolute;
     top: 20px;

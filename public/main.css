@@ -238,17 +238,10 @@ body {
   right: 12px;
   width: 80px;
   height: 30px;
-  background-color: #15DEA5;
-  /* to remove */
-}
-.card__flag {
-  position: absolute;
-  top: 14px;
-  right: 12px;
-  width: 80px;
-  height: 30px;
-  background-color: #15DEA5;
-  /* to remove */
+  background-color: #99E2D0;
+  font-weight: 700;
+  color: #008766;
+  text-align: center;
 }
 .card__flag--hide {
   display: none;
