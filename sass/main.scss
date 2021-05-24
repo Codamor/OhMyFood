@@ -17,13 +17,16 @@
 
 @import "components/buttons";
 
+@import "pages/home";
+@import "layout/header";
+@import "pages/menu";
+@import "layout/navigation";
+@import "layout/main";
 @import "layout/footer";
 @import "layout/forms";
 @import "layout/grid";
-@import "layout/header";
-@import "layout/main";
-@import "layout/navigation";
 
-@import "pages/home";
-@import "pages/menu";
+
+
+
 
