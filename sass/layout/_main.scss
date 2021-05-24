@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media screen and (min-width: $small){
+  @media screen and (min-width: $normal){
     flex-direction: row;
   }
 }
@@ -20,7 +20,7 @@
   width: 100%;
   height: 286px;
   background-color: $color-light-grey;
-  @media screen and (min-width: $small){
+  @media screen and (min-width: $normal){
     justify-content: center;
     height: 440px;
   }
@@ -51,13 +51,15 @@
 /*---- information ---- */
 
 .information{
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 440px;
   padding: 50px 20px;
-  @media screen and (min-width: $small){
-    flex-direction: column;
+  @media screen and (min-width: $normal){
     justify-content: center;
     align-items: center;
+    padding: 0;
   }
   &__title{
     font-size: 1.5em;
@@ -70,6 +72,8 @@
     padding-left: 15px;
   }
 }
+
+/*---- step-card ----*/
 
 .step-card {
   display: flex;
@@ -93,12 +97,21 @@
   }
   &__icon::before{
     margin-left: 8px;
-    content: "\f3cd";
     font-family: "Font Awesome 5 Free";
     font-size: 22px;
     font-weight: 700;
     color: grey;
   }
+  &:nth-child(1) .step-card__icon::before{
+    content: "\f3cd";
+  }
+  &:nth-child(2) .step-card__icon::before{
+    content: "\f0ca";
+  }
+  &:nth-child(3) .step-card__icon::before{
+    content: "\f54e";
+  }
+
   &__text{
     margin-left: 28px;
   }
@@ -111,6 +124,9 @@
   height: auto;
   padding: 50px 15px;
   background-color: $color-light-grey;
+  @media screen and (min-width: $normal){
+    background-color: $color-white;
+  }
   &__title{
     margin-bottom: 25px;
     font-size: 1.5em;
@@ -119,7 +135,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media screen and (min-width: $small){
+    @media screen and (min-width: $normal){
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
@@ -135,7 +151,7 @@
   margin: 20px 0;
   border-radius: 25px;
   overflow: hidden;
-  box-shadow: 0 10px 15px $color-light-grey;
+  box-shadow: 0px 5px 15px lightgray;
   &__image {
     position: relative;
     width: 100%;
