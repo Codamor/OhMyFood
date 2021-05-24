@@ -113,6 +113,7 @@
   }
   &:nth-child(3) .step-card__icon::before{
     content: "\f54e";
+    color: $color-primary;
   }
   &__text{
     margin-left: 28px;

@@ -238,6 +238,7 @@ body {
 }
 .step-card:nth-child(3) .step-card__icon::before {
   content: "";
+  color: #9356DC;
 }
 .step-card__text {
   margin-left: 28px;
