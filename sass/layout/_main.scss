@@ -84,6 +84,9 @@
   border-radius: 20px;
   box-shadow: 0px 5px 15px lightgray;
   background-color: #f6f6f6;
+  &:nth-child(3){
+    background-color: $color-light-purple;
+  }
   &__number {
     position: relative;
     right: 12px;
@@ -111,9 +114,10 @@
   &:nth-child(3) .step-card__icon::before{
     content: "\f54e";
   }
-
   &__text{
     margin-left: 28px;
+  }
+  &:hover{
   }
 }
 
@@ -167,6 +171,7 @@
     width: 80px;
     height: 30px;
     text-align: center;
+    box-shadow: 0 5px 10px black;
     background-color:$color-tertiary;
     &::before{
       position: relative;
