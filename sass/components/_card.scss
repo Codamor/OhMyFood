@@ -1,77 +1,6 @@
 /*-----------------------*\
-    MAIN
+    CARD
 \*---------------------- */
-
-.presentation{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @media screen and (min-width: $normal){
-    flex-direction: row;
-  }
-}
-
-/*---- explore ---- */
-
-.explore{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 286px;
-  background-color: $color-light-grey;
-  @media screen and (min-width: $normal){
-    justify-content: center;
-    height: 440px;
-  }
-  &__title{
-    margin-top: 35px;
-    font-size: 1.5em;
-    text-align: center;
-  }
-  &__sub-title{
-    margin-top: 20px;
-    font-size: 1.2em;
-    font-weight: 300;
-    text-align: center;
-  }
-  &__button{
-    width: 218px;
-    height: 50px;
-    margin-top: 30px;
-    border: none;
-    border-radius: 25px;
-    box-shadow: 0px 8px 20px gray;
-    background: linear-gradient(#e571DA, #a05adc);
-    font-weight: 500;
-    color: white;
-  }
-}
-
-/*---- information ---- */
-
-.information{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 440px;
-  padding: 50px 20px;
-  @media screen and (min-width: $normal){
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  }
-  &__title{
-    font-size: 1.5em;
-    margin-bottom: 20px;
-  }
-  &__steps{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 15px;
-  }
-}
 
 /*---- step-card ----*/
 
@@ -122,32 +51,6 @@
   }
 }
 
-/*---- Restaurants ----*/
-
-.restaurants{
-  width: 100%;
-  height: auto;
-  padding: 50px 15px;
-  background-color: $color-light-grey;
-  @media screen and (min-width: $normal){
-    background-color: $color-white;
-  }
-  &__title{
-    margin-bottom: 25px;
-    font-size: 1.5em;
-  }
-  &__cards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    @media screen and (min-width: $normal){
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-  }
-}
-
 /*---- Card ----*/
 
 .card {
@@ -187,10 +90,10 @@
     }
   }
   &__content {
-  position: relative;
-  width: 100%;
-  height: 75px;
-  background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
   }
   &__information {
     width: 100%;
@@ -215,5 +118,3 @@
     font-weight: 300;
   }
 }
-
-
