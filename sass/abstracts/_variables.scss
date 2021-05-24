@@ -3,10 +3,9 @@
 \*---------------------- */
 
 /*---- Breaking Points ----*/
-$small: (min-width: 600px);
-$medium: (min-width: 1000px);
-$normal: (min-width: 1200px);
-$large: (min-width: 1600px);
+$small: 768px;
+$normal: 1200px;
+$large: 1600px;
 
 /*--- Project colors ---*/
 $color-primary: #9356DC;
@@ -15,6 +14,11 @@ $color-tertiary: #99E2D0;
 
 /*--- Customized colors ---*/
 $color-white: #fff;
+$color-light-grey: #f6f6f6;
+$color-light-black: #353535;
+$color-flag: #008766;
+$color-light-purple: #f5edff;
+
 
 
 
