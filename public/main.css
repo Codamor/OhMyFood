@@ -82,8 +82,8 @@ button {
 /*-----------------------*\
     CARD
 \*---------------------- */
-/*---- step-card ----*/
-.step-card {
+/*---- card-step ----*/
+.card-step {
   display: flex;
   align-items: center;
   width: 325px;
@@ -93,10 +93,10 @@ button {
   box-shadow: 0px 5px 15px lightgray;
   background-color: #f6f6f6;
 }
-.step-card:nth-child(3) {
+.card-step:nth-child(3) {
   background-color: #f5edff;
 }
-.step-card__number {
+.card-step__number {
   position: relative;
   right: 12px;
   width: 25px;
@@ -107,28 +107,28 @@ button {
   color: white;
   text-align: center;
 }
-.step-card__icon::before {
+.card-step__icon::before {
   margin-left: 8px;
   font-family: "Font Awesome 5 Free";
   font-size: 22px;
   font-weight: 700;
   color: grey;
 }
-.step-card:nth-child(1) .step-card__icon::before {
+.card-step:nth-child(1) .card-step__icon::before {
   content: "";
 }
-.step-card:nth-child(2) .step-card__icon::before {
+.card-step:nth-child(2) .card-step__icon::before {
   content: "";
 }
-.step-card:nth-child(3) .step-card__icon::before {
+.card-step:nth-child(3) .card-step__icon::before {
   content: "";
   color: #9356DC;
 }
-.step-card__text {
+.card-step__text {
   margin-left: 28px;
 }
-/*---- Card ----*/
-.card {
+/*---- card-restaurant ----*/
+.card-restaurant {
   width: 335px;
   height: 250px;
   margin: 20px 0;
@@ -136,15 +136,15 @@ button {
   overflow: hidden;
   box-shadow: 0px 5px 15px lightgray;
 }
-.card__image {
+.card-restaurant__image {
   position: relative;
   width: 100%;
   height: 175px;
 }
-.card__image img {
+.card-restaurant__image img {
   object-fit: cover;
 }
-.card__flag {
+.card-restaurant__flag {
   position: absolute;
   top: 14px;
   right: 12px;
@@ -154,7 +154,7 @@ button {
   box-shadow: 0 5px 10px black;
   background-color: #99E2D0;
 }
-.card__flag::before {
+.card-restaurant__flag::before {
   position: relative;
   top: 5px;
   content: "Nouveau";
@@ -162,32 +162,32 @@ button {
   font-weight: 600;
   color: #008766;
 }
-.card__flag--hide {
+.card-restaurant__flag--hide {
   display: none;
 }
-.card__content {
+.card-restaurant__content {
   position: relative;
   width: 100%;
   height: 75px;
   background-color: #fff;
 }
-.card__information {
+.card-restaurant__information {
   width: 100%;
   padding-left: 15px;
 }
-.card__title {
+.card-restaurant__title {
   padding-top: 10px;
 }
-.card__sub-title {
+.card-restaurant__sub-title {
   padding-top: 5px;
   font-weight: 300;
 }
-.card__like {
+.card-restaurant__like {
   position: absolute;
   top: 20px;
   right: 22px;
 }
-.card__like::after {
+.card-restaurant__like::after {
   content: "";
   font-family: "Font Awesome 5 Free";
   font-size: 25px;
