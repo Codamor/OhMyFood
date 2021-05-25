@@ -294,6 +294,18 @@ button {
 /*-----------------------*\
     MENU
 \*---------------------- */
+/*---- home link ----*/
+.home-link::before {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+  font-weight: 700;
+  color: #353535;
+}
+
 /*-----------------------*\
     Home
 \*---------------------- */
