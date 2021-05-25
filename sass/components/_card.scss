@@ -2,9 +2,9 @@
     CARD
 \*---------------------- */
 
-/*---- step-card ----*/
+/*---- card-step ----*/
 
-.step-card {
+.card-step {
   display: flex;
   align-items: center;
   width: 325px;
@@ -34,13 +34,13 @@
     font-weight: 700;
     color: grey;
   }
-  &:nth-child(1) .step-card__icon::before{
+  &:nth-child(1) .card-step__icon::before{
     content: "\f3cd";
   }
-  &:nth-child(2) .step-card__icon::before{
+  &:nth-child(2) .card-step__icon::before{
     content: "\f0ca";
   }
-  &:nth-child(3) .step-card__icon::before{
+  &:nth-child(3) .card-step__icon::before{
     content: "\f54e";
     color: $color-primary;
   }
@@ -51,9 +51,9 @@
   }
 }
 
-/*---- Card ----*/
+/*---- card-restaurant ----*/
 
-.card {
+.card-restaurant {
   width: 335px;
   height: 250px;
   margin: 20px 0;
