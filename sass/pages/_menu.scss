@@ -33,7 +33,7 @@
   z-index: 1;
   margin-top: -50px;
   width: 100%;
-  padding: 30px 25px;
+  padding: 30px 20px;
   border-radius: 50px 50px 0 0;
   background-color: $color-light-grey;
   &__title{
@@ -51,8 +51,16 @@
   }
 }
 
-.menu_part{
+/*---- menu part ----*/
+
+.menu-part{
   width: 100%;
   height: auto;
   margin: 20px 0;
+  &__title{
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
 }
