@@ -406,7 +406,7 @@ body {
 }
 
 /*---- menu ----*/
-.menu {
+.menu__container {
   position: relative;
   z-index: 1;
   display: flex;
@@ -419,19 +419,13 @@ body {
   background-color: #f6f6f6;
 }
 .menu__title {
-  position: relative;
-  right: 40px;
   font-family: Shrikhand;
-  font-size: 2.1em;
+  font-size: 1.8em;
   font-weight: 500;
 }
-.menu__title::after {
+.menu__icon {
   position: relative;
-  left: 65px;
-  content: "";
-  font-family: "Font Awesome 5 Free";
-  font-size: 30px;
-  font-weight: 300;
+  right: 20px;
 }
 
 /*---- menu part ----*/

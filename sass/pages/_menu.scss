@@ -29,30 +29,26 @@
 /*---- menu ----*/
 
 .menu{
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: -50px;
-  width: 100%;
-  padding: 30px 20px;
-  border-radius: 50px 50px 0 0;
-  background-color: $color-light-grey;
-  &__title{
+  &__container {
     position: relative;
-    right: 40px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 50px 50px 0 0;
+    background-color: $color-light-grey;
+  }
+  &__title{
     font-family: Shrikhand;
-    font-size: 2.1em;
+    font-size: 1.8em;
     font-weight: 500;
-    &::after{
-      position: relative;
-      left: 65px;
-      content: "\f004";
-      font-family: "Font Awesome 5 Free";
-      font-size: 30px;
-      font-weight: 300;
-    }
+  }
+  &__icon{
+    position: relative;
+    right: 20px;
   }
 }
 
