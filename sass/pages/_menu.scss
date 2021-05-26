@@ -1,3 +1,66 @@
 /*-----------------------*\
     MENU
 \*---------------------- */
+
+/*---- home link ----*/
+
+.home-link::before{
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  content: "\f060";
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+  font-weight: 700;
+  color: $color-light-black;
+}
+
+/*---- restaurant----*/
+
+.restaurant{
+  width: 100%;
+  height: 270px;
+  &__image{
+    object-fit: cover;
+  }
+}
+
+
+/*---- menu ----*/
+
+.menu{
+  position: relative;
+  z-index: 1;
+  margin-top: -50px;
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 50px 50px 0 0;
+  background-color: $color-light-grey;
+  &__title{
+    font-family: Shrikhand;
+    font-size: 2.1em;
+    font-weight: 500;
+    &::after{
+      position: relative;
+      left: 65px;
+      content: "\f004";
+      font-family: "Font Awesome 5 Free";
+      font-size: 30px;
+      font-weight: 300;
+    }
+  }
+}
+
+/*---- menu part ----*/
+
+.menu-part{
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  &__title{
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+}
