@@ -122,29 +122,87 @@
 
 /*---- card-menu ----*/
 
-.card-menu{
+.card-menu {
+  position: relative;
+  display: flex;
   width: 350px;
   height: 68px;
-  padding: 10px;
+  margin: 7px 0;
   border-radius: 15px;
   box-shadow: 0px 5px 15px lightgray;
-  background-color: $color-white;
+  background-color: #fff;
+  overflow: hidden;
+  &__content{
+    width: 290px;
+    height: 68px;
+    padding: 10px;
+  }
   &__title{
-    font-size: 1.2em;
+    width: 290px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   &__sub-title{
-    margin-top: 6px;
-    font-size: 1em;
+    width: 290px;
+    margin-top: 5px;
     font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
-  &__price{
-    position: relative;
-    left: 290px;
-    bottom: 20px;
+  &__price {
+    width: 60px;
+    height: 68px;
+    font-weight: 700;
+    & span {
+      position: relative;
+      top: 40px;
+      left: 10px;
+    }
   }
   &__select{
+    position: absolute;
+    right: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60px;
-    height: 60px;
+    height: 68px;
+    border-radius: 0 15px 15px 0;
     background-color: $color-tertiary;
+  }
+  &__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    color: $color-tertiary;
+    background-color: #fff;
+  }
+
+  /* ---- hover ----*/
+
+  &:hover > .card-menu__select{
+    transform: translateX(-60px);
+    transition: transform 0.7s;
+  }
+  &:hover .card-menu__icon{
+    transform: rotate(360deg);
+    transition: transform 0.7s;
+  }
+  &:hover .card-menu__title {
+    width: 200px;
+    transition: 0.7s;
+  }
+  &:hover .card-menu__sub-title{
+    width: 210px;
+    transition: 0.7s;
+  }
+  &:hover .card-menu__price{
+    transform: translateX(-60px);
+    transition: 0.7s;
   }
 }

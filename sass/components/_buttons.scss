@@ -2,14 +2,19 @@
     BUTTONS
 \*---------------------- */
 
-button{
+.button{
   width: 218px;
   height: 50px;
-  margin-top: 30px;
   border: none;
   border-radius: 25px;
   box-shadow: 0px 8px 20px gray;
   background: linear-gradient(#e571DA, #a05adc);
   font-weight: 500;
   color: white;
+  &--home{
+    margin: 30px 0 50px 0;
+  }
+  &--menu{
+    margin: 50px 0 90px 0;
+  }
 }
