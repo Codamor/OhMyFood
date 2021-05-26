@@ -67,16 +67,21 @@ body {
 /*-----------------------*\
     BUTTONS
 \*---------------------- */
-button {
+.button {
   width: 218px;
   height: 50px;
-  margin: 50px 0 90px 0;
   border: none;
   border-radius: 25px;
   box-shadow: 0px 8px 20px gray;
   background: linear-gradient(#e571DA, #a05adc);
   font-weight: 500;
   color: white;
+}
+.button--home {
+  margin: 30px 0 50px 0;
+}
+.button--menu {
+  margin: 50px 0 90px 0;
 }
 
 /*-----------------------*\
@@ -286,6 +291,7 @@ button {
 }
 
 .banner {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -379,12 +385,12 @@ button {
     MENU
 \*---------------------- */
 /*---- home link ----*/
-.home-link::before {
+.banner__link {
   position: absolute;
-  top: 15px;
   left: 30px;
-  content: "";
-  font-family: "Font Awesome 5 Free";
+  top: 15px;
+  width: 30px;
+  height: 30px;
   font-size: 25px;
   font-weight: 700;
   color: #353535;
@@ -403,6 +409,9 @@ button {
 .menu {
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: -50px;
   width: 100%;
   padding: 30px 20px;
@@ -410,6 +419,8 @@ button {
   background-color: #f6f6f6;
 }
 .menu__title {
+  position: relative;
+  right: 40px;
   font-family: Shrikhand;
   font-size: 2.1em;
   font-weight: 500;
