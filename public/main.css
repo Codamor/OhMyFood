@@ -20,7 +20,7 @@ body {
 /*-----------------------*\
     CONTAINER
 \*---------------------- */
-.container {
+.page-container {
   width: 100%;
   max-width: 1440px;
   height: auto;
@@ -420,15 +420,13 @@ body {
 
 /*---- menu ----*/
 .menu {
-  width: 350px;
-  margin: 0 auto;
+  width: 100%;
 }
 .menu__container {
   position: relative;
-  z-index: 1;
-  margin-top: -50px;
-  width: 100%;
-  padding: 30px 20px;
+  width: 375px;
+  margin: -50px auto 0 auto;
+  padding: 35px 10px;
   border-radius: 50px 50px 0 0;
   background-color: #f6f6f6;
 }
@@ -445,17 +443,17 @@ body {
 }
 
 /*---- menu part ----*/
-.menu-part {
-  width: 300px;
+.component {
+  width: 100%;
   margin: 20px 0;
 }
-.menu-part__title {
+.component__title {
   margin: 20px 0;
   font-size: 1.2em;
   font-weight: 300;
   text-transform: uppercase;
 }
-.menu-part__items {
+.component__box {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
