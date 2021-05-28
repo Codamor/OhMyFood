@@ -8,6 +8,11 @@
   padding: 22px 20px;
   background-color: $color-light-black;
   color: $color-white;
+  @media screen and (min-width: 430px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   &__title{
     font-size: 20px;
     font-weight: 400;
