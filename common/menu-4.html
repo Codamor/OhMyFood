@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
 <body>
-<div class="container">
+<div class="page-container">
 
     <header class="header">
         <div class="banner">
@@ -35,19 +35,23 @@
                  alt="Restaurant le Délice des sens">
         </div>
 
-        <section class="menu__container">
+        <section class="menu">
 
-            <div class="menu">
-                <h1 class="menu__title">
+            <div class="menu__title">
+                <h1>
                     Le délice des sens
                 </h1>
+                <i class="menu__icon far fa-heart"></i>
+            </div>
 
-                <div class="menu_part">
-                    <h2 class="menu-part__title">
+            <div class="menu__components">
+
+                <div class="component">
+                    <h2 class="component__title">
                         Entrées
                     </h2>
 
-                    <div class="menu-part__items">
+                    <div class="component__box">
                         <div class="card-menu">
                             <div class="card-menu__content">
                                 <h3 class="card-menu__title">
@@ -105,15 +109,15 @@
                             </div>
                         </div>
 
-                    </div> <!-- end menu-part__items -->
-                </div> <!-- end menu-part -->
+                    </div> <!-- end component__box -->
+                </div> <!-- end component -->
 
-                <div class="menu_part">
-                    <h2 class="menu-part__title">
+                <div class="component">
+                    <h2 class="component__title">
                         Plats
                     </h2>
 
-                    <div class="menu-part__items">
+                    <div class="component__box">
                         <div class="card-menu">
                             <div class="card-menu__content">
                                 <h3 class="card-menu__title">
@@ -171,15 +175,15 @@
                             </div>
                         </div>
 
-                    </div> <!-- end menu-part__items -->
-                </div> <!-- end menu-part -->
+                    </div> <!-- end component__box -->
+                </div> <!-- end component -->
 
-                <div class="menu_part">
-                    <h2 class="menu-part__title">
+                <div class="component">
+                    <h2 class="component__title">
                         DESSERTS
                     </h2>
 
-                    <div class="menu-part__items">
+                    <div class="component__box">
                         <div class="card-menu">
                             <div class="card-menu__content">
                                 <h3 class="card-menu__title">
@@ -236,15 +240,15 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- end menu-part__items -->
+                    </div> <!-- end component__box -->
 
-                </div> <!-- end menu-part -->
+                </div> <!-- end component -->
 
-                <button class="button button--menu">Commander</button>
+            </div> <!-- end menu__components -->
 
-            </div> <!-- end menu -->
+            <button class="button button--menu">Commander</button>
 
-        </section>
+        </section> <!-- end menu -->
 
     </main>
 
