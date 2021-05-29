@@ -7,6 +7,7 @@
     VARIABLES
 \*---------------------- */
 /*---- Breaking Points ----*/
+/*--- basic colors ---*/
 /*--- Project colors ---*/
 /*--- Customized colors ---*/
 /*-----------------------*\
@@ -97,10 +98,10 @@ body {
   margin: 10px 0;
   border-radius: 20px;
   box-shadow: 0px 5px 15px lightgray;
-  background-color: #f6f6f6;
+  background-color: $color-grey-96;
 }
 .card-step:nth-child(3) {
-  background-color: #f5edff;
+  background-color: #f4ebff;
 }
 .card-step__number {
   position: relative;
@@ -109,7 +110,7 @@ body {
   height: 25px;
   padding-top: 4px;
   border-radius: 50px;
-  background-color: #9356DC;
+  background-color: #9256dc;
   color: white;
   text-align: center;
 }
@@ -128,7 +129,7 @@ body {
 }
 .card-step:nth-child(3) .card-step__icon::before {
   content: "";
-  color: #9356DC;
+  color: #9256dc;
 }
 .card-step__text {
   margin-left: 28px;
@@ -142,7 +143,7 @@ body {
   overflow: hidden;
   box-shadow: 0px 5px 15px lightgray;
 }
-@media screen and (min-width: 430px) and (max-width: 768px) {
+@media screen and (min-width: 376px) and (max-width: 430px) {
   .card-restaurant {
     width: 100%;
   }
@@ -163,7 +164,7 @@ body {
   height: 30px;
   text-align: center;
   box-shadow: 0 5px 10px black;
-  background-color: #99E2D0;
+  background-color: #98e2cf;
 }
 .card-restaurant__flag::before {
   position: relative;
@@ -171,7 +172,7 @@ body {
   content: "Nouveau";
   font-size: 15px;
   font-weight: 600;
-  color: #008766;
+  color: #008563;
 }
 .card-restaurant__flag--hide {
   display: none;
@@ -180,7 +181,7 @@ body {
   position: relative;
   width: 100%;
   height: 75px;
-  background-color: #fff;
+  background-color: white;
 }
 .card-restaurant__information {
   width: 100%;
@@ -214,7 +215,7 @@ body {
   margin: 7px 0;
   border-radius: 15px;
   box-shadow: 0px 5px 15px lightgray;
-  background-color: #fff;
+  background-color: white;
   overflow: hidden;
   /* ---- hover ----*/
 }
@@ -256,7 +257,7 @@ body {
   width: 60px;
   height: 68px;
   border-radius: 0 15px 15px 0;
-  background-color: #99E2D0;
+  background-color: #98e2cf;
 }
 .card-menu__icon {
   display: flex;
@@ -265,8 +266,8 @@ body {
   width: 25px;
   height: 25px;
   border-radius: 50px;
-  color: #99E2D0;
-  background-color: #fff;
+  color: #98e2cf;
+  background-color: white;
 }
 .card-menu:hover > .card-menu__select {
   transform: translateX(-60px);
@@ -352,8 +353,8 @@ body {
   width: 100%;
   height: 190px;
   padding: 22px 20px;
-  background-color: #353535;
-  color: #fff;
+  background-color: #363636;
+  color: white;
 }
 @media screen and (min-width: 430px) {
   .footer {
@@ -406,7 +407,7 @@ body {
   height: 30px;
   font-size: 25px;
   font-weight: 700;
-  color: #353535;
+  color: #363636;
 }
 
 /*---- restaurant----*/
@@ -425,7 +426,7 @@ body {
   margin: -50px auto 0 auto;
   padding: 35px 10px;
   border-radius: 50px 50px 0 0;
-  background-color: #f6f6f6;
+  background-color: whitesmoke;
 }
 .menu__title {
   display: flex;
@@ -489,9 +490,9 @@ body {
   align-items: center;
   width: 100%;
   height: 286px;
-  background-color: #f6f6f6;
+  background-color: whitesmoke;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 430px) {
   .explore {
     height: auto;
   }
@@ -522,7 +523,7 @@ body {
   height: 440px;
   padding: 50px 20px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 430px) {
   .information {
     height: auto;
   }
@@ -545,7 +546,7 @@ body {
   align-items: center;
   padding-left: 15px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 430px) {
   .information__steps {
     flex-direction: row;
     flex-wrap: wrap;
@@ -563,11 +564,11 @@ body {
   width: 100%;
   height: auto;
   padding: 50px 15px;
-  background-color: #f6f6f6;
+  background-color: whitesmoke;
 }
 @media screen and (min-width: 1200px) {
   .restaurants {
-    background-color: #fff;
+    background-color: white;
   }
 }
 .restaurants__title {
@@ -579,7 +580,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 430px) {
   .restaurants__cards {
     flex-direction: row;
     flex-wrap: wrap;
