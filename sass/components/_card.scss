@@ -113,12 +113,12 @@
     position: absolute;
     top: 20px;
     right: 22px;
-  }
-  &__like::after {
-    content: "\f004";
-    font-family: "Font Awesome 5 Free";
     font-size: 25px;
-    font-weight: 300;
+    &:hover .is-like{
+      background-image: linear-gradient($color-secondary,  $color-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 }
 
