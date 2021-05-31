@@ -53,11 +53,6 @@
 
 /*---- card-restaurant ----*/
 
-.restaurants{
-  &__card{
-
-  }
-}
 .card-restaurant {
   width: 335px;
   height: 250px;
@@ -65,9 +60,14 @@
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 0px 5px 15px lightgray;
-  @media screen and (min-width: $x-small) and (max-width: $small){
+  @media screen and (min-width: $medium){
     width: 100%;
   }
+  @media screen and (min-width: 680px){
+    width: 500px;
+  }
+
+
   &__image {
     position: relative;
     width: 100%;
