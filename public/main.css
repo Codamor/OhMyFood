@@ -609,13 +609,13 @@ body {
   margin-bottom: 25px;
   font-size: 1.5em;
 }
-.restaurants__cards {
+.restaurants__container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media screen and (min-width: 430px) {
-  .restaurants__cards {
+  .restaurants__container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
