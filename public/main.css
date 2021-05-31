@@ -457,6 +457,11 @@ body {
 .restaurant__image {
   object-fit: cover;
 }
+@media screen and (min-width: 768px) {
+  .restaurant {
+    height: 470px;
+  }
+}
 
 /*---- menu ----*/
 .menu {

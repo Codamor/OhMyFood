@@ -23,6 +23,9 @@
   &__image{
     object-fit: cover;
   }
+  @media screen and (min-width: $medium){
+    height: 470px;
+  }
 }
 
 /*---- menu ----*/
