@@ -1,3 +1,10 @@
 /*-----------------------*\
     NAVIGATION
 \*---------------------- */
+
+.navigation{
+  width: auto;
+  @media screen and (min-width: $medium){
+    width: 80%;
+  }
+}

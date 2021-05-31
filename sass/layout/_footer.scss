@@ -13,6 +13,11 @@
     flex-direction: column;
     align-items: center;
   }
+  @media screen and (min-width: $medium) {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+  }
   &__title{
     font-size: 20px;
     font-weight: 400;
@@ -20,6 +25,12 @@
   }
   &__list{
     margin-top: 20px;
+    @media screen and (min-width: $medium) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 0;
+    }
   }
   &__item{
     margin: 7px 0;

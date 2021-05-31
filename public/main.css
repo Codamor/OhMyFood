@@ -385,6 +385,15 @@ body {
 /*-----------------------*\
     NAVIGATION
 \*---------------------- */
+.navigation {
+  width: auto;
+}
+@media screen and (min-width: 768px) {
+  .navigation {
+    width: 80%;
+  }
+}
+
 /*-----------------------*\
     FOOTER
 \*-----------------------*/
@@ -402,6 +411,13 @@ body {
     align-items: center;
   }
 }
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+  }
+}
 .footer__title {
   font-size: 20px;
   font-weight: 400;
@@ -409,6 +425,14 @@ body {
 }
 .footer__list {
   margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+  }
 }
 .footer__item {
   margin: 7px 0;
