@@ -116,9 +116,6 @@ body {
   box-shadow: 0px 5px 15px lightgray;
   background-color: whitesmoke;
 }
-.card-step:nth-child(3) {
-  background-color: #f4ebff;
-}
 .card-step__number {
   position: relative;
   right: 12px;
@@ -145,11 +142,16 @@ body {
 }
 .card-step:nth-child(3) .card-step__icon::before {
   content: "";
-  color: #9256dc;
 }
 .card-step__text {
   margin-left: 28px;
 }
+.card-step:hover {
+  cursor: pointer;
+  background-color: #f4ebff;
+  transition: 0.4s;
+}
+
 /*---- card-restaurant ----*/
 .card-restaurant {
   width: 335px;
