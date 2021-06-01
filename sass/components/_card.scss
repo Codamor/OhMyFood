@@ -60,7 +60,7 @@
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 0px 5px 15px lightgray;
-  @media screen and (min-width: $x-small) and (max-width: $small){
+  @media screen and (width: $x-small) and (max-width: $small){
     width: 100%;
   }
   &__image {
@@ -115,7 +115,12 @@
     right: 22px;
     font-size: 25px;
     &:hover .is-like{
-      animation: heart-like 1s;
+      opacity: 1;
+      animation: heart-like 0.3s;
+    }
+    &:hover .not-like{
+      opacity: 0;
+      transition: 0.3s;
     }
   }
 }

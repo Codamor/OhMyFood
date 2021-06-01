@@ -3,23 +3,8 @@
     transform: scale(0);
   }
 
-  25%{
-    transform: scale(0.3);
-  }
-
-  50%{
-    transform: scale(0.6);
-  }
-
-  75%{
-    transform: scale(1);
-  }
-
-  85%{
-    transform: scale(1.2);
-  }
-
   100%{
-    transform: scale(1);
+    transform: scale(1.4);
+    transition-timing-function: ease-in;
   }
 }
