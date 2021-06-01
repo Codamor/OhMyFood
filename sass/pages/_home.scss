@@ -2,6 +2,9 @@
     Home
 \*---------------------- */
 
+.loading-spinner{
+}
+
 .presentation{
   display: flex;
   flex-direction: column;
@@ -19,7 +22,7 @@
   align-items: center;
   width: 100%;
   height: 286px;
-  background-color: $color-light-grey;
+  background-color: $color-grey-95;
 
   @media screen and (min-width: $small){
     height: auto;
@@ -89,15 +92,15 @@
   width: 100%;
   height: auto;
   padding: 50px 15px;
-  background-color: $color-light-grey;
+  background-color: $color-grey-95;
   @media screen and (min-width: $normal){
-    background-color: $color-white;
+    background-color: $white;
   }
   &__title{
     margin-bottom: 25px;
     font-size: 1.5em;
   }
-  &__cards{
+  &__container{
     display: flex;
     flex-direction: column;
     align-items: center;

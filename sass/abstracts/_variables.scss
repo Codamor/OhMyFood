@@ -3,22 +3,28 @@
 \*---------------------- */
 
 /*---- Breaking Points ----*/
-$small: 768px;
+
+$x-small: 376px;
+$small: 430px;
+$medium: 768px;
 $normal: 1200px;
 $large: 1600px;
 
+/*--- basic colors ---*/
+$white: hsl(0, 0%, 100%);
+
 /*--- Project colors ---*/
-$color-primary: #9356DC;
-$color-secondary: #FF79DA;
-$color-tertiary: #99E2D0;
+$color-primary: hsl(267,66%,60%);
+$color-secondary: hsl(317, 100%, 74%);
+$color-tertiary: hsl(165, 56%, 74%);
 
 /*--- Customized colors ---*/
-$color-white: #fff;
-$color-light-grey: #f6f6f6;
-$color-light-black: #353535;
-$color-flag: #008766;
-$color-light-purple: #f5edff;
 
+$color-grey-95: hsl(0, 0%, 96%);
+$color-grey-96: hsl(0, 0%, 96%);
+$color-light-black: hsl(0, 0%, 21%);
+$color-flag: hsl(165, 100%, 26%);
+$color-light-purple: hsl(267, 100%, 96%);
 
 
 
