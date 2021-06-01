@@ -30,6 +30,10 @@
 .not-like{
   position: relative;
   left: 31px;
+  &--menu{
+    position: relative;
+    left: 36px;
+  }
 }
 
 .is-like{
@@ -38,4 +42,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
 

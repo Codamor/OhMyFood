@@ -95,6 +95,10 @@ body {
   position: relative;
   left: 31px;
 }
+.not-like--menu {
+  position: relative;
+  left: 36px;
+}
 
 .is-like {
   opacity: 0;
@@ -211,17 +215,29 @@ body {
   padding-top: 5px;
   font-weight: 300;
 }
-.card-restaurant__like {
+.card-restaurant__like-box {
   position: absolute;
   top: 20px;
   right: 22px;
   font-size: 25px;
 }
-.card-restaurant__like:hover .is-like {
+.card-restaurant__like-box:hover .is-like {
   opacity: 1;
   animation: heart-like 0.3s;
 }
-.card-restaurant__like:hover .not-like {
+.card-restaurant__like-box:hover .not-like {
+  opacity: 0;
+  transition: 0.3s;
+}
+.card-restaurant__like-box--menu:hover .is-like {
+  opacity: 1;
+  animation: heart-like 0.3s;
+}
+.card-restaurant__like-box--menu:hover .not-like {
+  opacity: 0;
+  transition: 0.3s;
+}
+.card-restaurant__like-box--menu:hover .not-like--menu {
   opacity: 0;
   transition: 0.3s;
 }
