@@ -13,9 +13,6 @@
   border-radius: 20px;
   box-shadow: 0px 5px 15px lightgray;
   background-color: $color-grey-96;
-  &:nth-child(3){
-    background-color: $color-light-purple;
-  }
   &__number {
     position: relative;
     right: 12px;
@@ -42,12 +39,14 @@
   }
   &:nth-child(3) .card-step__icon::before{
     content: "\f54e";
-    color: $color-primary;
   }
   &__text{
     margin-left: 28px;
   }
   &:hover{
+    cursor: pointer;
+    background-color: $color-light-purple;
+    transition: 0.4s;
   }
 }
 
@@ -60,9 +59,14 @@
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 0px 5px 15px lightgray;
-  @media screen and (width: $x-small) and (max-width: $small){
+  @media screen and (min-width: $medium){
     width: 100%;
   }
+  @media screen and (min-width: 680px){
+    width: 500px;
+  }
+
+
   &__image {
     position: relative;
     width: 100%;
