@@ -11,6 +11,97 @@
   opacity: 0.9;
 }
 
+/*---- cooking pot for loading spinner animation ---- */
+
+.cooking-pot{
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  animation: pot-shake 3s 1;
+}
+
+.pot{
+  width: 200px;
+  height: 40px;
+  border-radius: 0 0 80px 80px ;
+  font-size: 0;
+  text-align: center;
+  background-color: #000;
+  &__handle{
+    position: absolute;
+    right: -85px;
+    top: -18px;
+    width: 100px;
+    height: 10px;
+    border-radius: 0 25px 25px 0;
+    background-color: #000;
+    transform: rotate(-25deg);
+  }
+  &__food:nth-child(1){
+    font-size: 35px;
+    display: inline-block;
+    animation-name: food-jump, food-cooking;
+    animation-duration: 1.8s, 2s;
+    animation-delay: 1.8s, 4s;
+  }
+  &__food:nth-child(2){
+    font-size: 35px;
+    display: inline-block;
+    animation-name: food-jump, food-cooking;
+    animation-duration: 1.8s, 2s;
+    animation-delay: 1.9s, 4.1s;
+  }
+  &__food:nth-child(3){
+    font-size: 35px;
+    display: inline-block;
+    animation-name: food-jump, food-cooking;
+    animation-duration: 1.8s, 2s;
+    animation-delay: 2s, 4.2s;
+  }
+  &__food:nth-child(4){
+    font-size: 35px;
+    display: inline-block;
+    animation-name: food-jump, food-cooking;
+    animation-duration: 1.8s, 2s;
+    animation-delay: 2.1s, 4.3s;
+  }
+  &__food:nth-child(5){
+    font-size: 35px;
+    display: inline-block;
+    animation-name: food-jump, food-cooking;
+    animation-duration: 1.8s, 2s;
+    animation-delay: 2.2s, 4.4s;
+  }
+  &__food:nth-child(6){
+    font-size: 35px;
+    display: inline-block;
+    animation-name: food-jump, food-cooking;
+    animation-duration: 1.8s, 2s;
+    animation-delay: 2.3s, 4.5s;
+  }
+  &__food:nth-child(7){
+    font-size: 35px;
+    display: inline-block;
+    animation-name: food-jump, food-cooking;
+    animation-duration: 1.8s, 2s;
+    animation-delay: 2.4s, 4.6s;
+  }
+  &__food:nth-child(8){
+    font-size: 35px;
+    display: inline-block;
+    animation-name: food-jump, food-cooking;
+    animation-duration: 1.8s, 2s;
+    animation-delay: 2.5s, 4.7s;
+  }
+
+}
+
+
+
+
+/*---- presentation ---- */
+
 .presentation{
   display: flex;
   flex-direction: column;

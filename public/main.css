@@ -600,6 +600,42 @@ body {
   opacity: 0.9;
 }
 
+/*---- cooking pot for loading spinner animation ---- */
+.cooking-pot {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  animation: pot-shake 3s 1;
+}
+
+.pot {
+  width: 200px;
+  height: 40px;
+  border-radius: 0 0 80px 80px;
+  font-size: 0;
+  text-align: center;
+  background-color: #000;
+}
+.pot__handle {
+  position: absolute;
+  right: -85px;
+  top: -18px;
+  width: 100px;
+  height: 10px;
+  border-radius: 0 25px 25px 0;
+  background-color: #000;
+  transform: rotate(-25deg);
+}
+.pot__food:nth-child(1) {
+  font-size: 35px;
+  display: inline-block;
+  animation-name: food-jump, food-cooking;
+  animation-duration: 1.8s, 2s;
+  animation-delay: 1.8s, 4s;
+}
+
+/*---- presentation ---- */
 .presentation {
   display: flex;
   flex-direction: column;
