@@ -380,6 +380,39 @@ body {
     opacity: 1;
   }
 }
+@keyframes pot-shake {
+  50% {
+    transform-origin: bottom right;
+    transform: rotate(-20deg);
+  }
+  60% {
+    transform-origin: top right;
+    transform: translateY(-30px) rotate(10deg);
+  }
+}
+@keyframes food-jump {
+  0% {
+    transform: rotate(180deg);
+  }
+  40% {
+    transform: translateY(-100px) rotate(360deg);
+  }
+  80% {
+    transform: rotate(460deg);
+  }
+}
+@keyframes food-cooking {
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
 /*-----------------------*\
     HEADER
 \*---------------------- */
@@ -594,9 +627,12 @@ body {
 .loading-spinner {
   z-index: 1;
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #363636;
+  background-color: white;
   opacity: 0.9;
 }
 
@@ -610,8 +646,8 @@ body {
 }
 
 .pot {
-  width: 200px;
-  height: 40px;
+  width: 230px;
+  height: 50px;
   border-radius: 0 0 80px 80px;
   font-size: 0;
   text-align: center;
@@ -619,20 +655,51 @@ body {
 }
 .pot__handle {
   position: absolute;
-  right: -85px;
+  right: -110px;
   top: -18px;
   width: 100px;
-  height: 10px;
+  height: 13px;
   border-radius: 0 25px 25px 0;
   background-color: #000;
   transform: rotate(-25deg);
 }
-.pot__food:nth-child(1) {
+.pot__food {
   font-size: 35px;
+  font-family: Shrikhand;
   display: inline-block;
   animation-name: food-jump, food-cooking;
+}
+.pot__food:nth-child(1) {
   animation-duration: 1.8s, 2s;
   animation-delay: 1.8s, 4s;
+}
+.pot__food:nth-child(2) {
+  animation-duration: 1.8s, 2s;
+  animation-delay: 1.9s, 4.1s;
+}
+.pot__food:nth-child(3) {
+  animation-duration: 1.8s, 2s;
+  animation-delay: 2s, 4.2s;
+}
+.pot__food:nth-child(4) {
+  animation-duration: 1.8s, 2s;
+  animation-delay: 2.1s, 4.3s;
+}
+.pot__food:nth-child(5) {
+  animation-duration: 1.8s, 2s;
+  animation-delay: 2.2s, 4.4s;
+}
+.pot__food:nth-child(6) {
+  animation-duration: 1.8s, 2s;
+  animation-delay: 2.3s, 4.5s;
+}
+.pot__food:nth-child(7) {
+  animation-duration: 1.8s, 2s;
+  animation-delay: 2.4s, 4.6s;
+}
+.pot__food:nth-child(8) {
+  animation-duration: 1.8s, 2s;
+  animation-delay: 2.5s, 4.7s;
 }
 
 /*---- presentation ---- */
