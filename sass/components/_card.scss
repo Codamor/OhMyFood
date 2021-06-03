@@ -117,7 +117,7 @@
     position: absolute;
     top: 20px;
     right: 22px;
-    font-size: 25px;
+    font-size: 35px;
     &:hover .is-like{
       opacity: 1;
       animation: heart-like 0.3s;
@@ -247,3 +247,6 @@
     transition: 0.7s;
   }
 }
+
+
+.plein{ transition: all 1s; opacity: 0; color: red; background: -webkit-linear-gradient(rgb(243, 4, 64), rgb(126, 3, 3)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; z-index: 2; }
