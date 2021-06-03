@@ -104,12 +104,8 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 286px;
+  height: auto;
   background-color: $color-grey-95;
-
-  @media screen and (min-width: $small){
-    height: auto;
-  }
 
   @media screen and (min-width: $normal){
     justify-content: center;

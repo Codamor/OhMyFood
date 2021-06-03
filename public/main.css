@@ -718,13 +718,8 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 286px;
+  height: auto;
   background-color: whitesmoke;
-}
-@media screen and (min-width: 430px) {
-  .explore {
-    height: auto;
-  }
 }
 @media screen and (min-width: 1200px) {
   .explore {
