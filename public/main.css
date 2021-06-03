@@ -413,6 +413,12 @@ body {
     opacity: 0;
   }
 }
+@keyframes loading {
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
 /*-----------------------*\
     HEADER
 \*---------------------- */
@@ -633,7 +639,8 @@ body {
   width: 100%;
   height: 100%;
   background-color: white;
-  opacity: 0.9;
+  opacity: 1;
+  animation: loading 0.5s 6s ease-in forwards;
 }
 
 /*---- cooking pot for loading spinner animation ---- */

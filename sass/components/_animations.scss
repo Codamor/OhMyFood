@@ -48,9 +48,7 @@
 }
 
 @keyframes food-cooking {
-
   90%{
-
     opacity: 1;
   }
   95%{
@@ -60,5 +58,12 @@
     transform: translateY(-100px);
     opacity: 0;
   }
+}
 
+@keyframes loading {
+  100%{
+    opacity: 0;
+    z-index: -1;
+  }
+  
 }
