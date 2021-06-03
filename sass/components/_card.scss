@@ -65,8 +65,9 @@
   @media screen and (min-width: 680px){
     width: 500px;
   }
-
-
+  & a{
+    display: block;
+  }
   &__image {
     position: relative;
     width: 100%;

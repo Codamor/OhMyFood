@@ -179,6 +179,9 @@ body {
     width: 500px;
   }
 }
+.card-restaurant a {
+  display: block;
+}
 .card-restaurant__image {
   position: relative;
   width: 100%;
@@ -721,7 +724,7 @@ body {
   height: 286px;
   background-color: whitesmoke;
 }
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 376px) {
   .explore {
     height: auto;
   }
