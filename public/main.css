@@ -589,15 +589,17 @@ body {
 }
 .menu__title {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   font-family: Shrikhand;
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: 500;
 }
 @media screen and (min-width: 376px) {
   .menu__title {
+    justify-content: space-between;
     margin: 0 auto;
+    font-size: 1.8em;
   }
 }
 .menu__icon {
