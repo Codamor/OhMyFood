@@ -41,7 +41,7 @@
  &__title{
     display: flex;
     justify-content: space-between;
-   width: 375px;
+    width: 100%;
     font-family: Shrikhand;
     font-size: 1.8em;
     font-weight: 500;
@@ -64,7 +64,7 @@
 /*---- menu part ----*/
 
 .component{
-  width: auto;
+  width: 100%;
   margin: 20px 0;
   &__title{
     margin: 20px 0;
