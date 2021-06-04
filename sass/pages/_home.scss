@@ -107,6 +107,10 @@
   height: auto;
   background-color: $color-grey-95;
 
+  @media screen and (min-width: $x-small){ //TODO check if ok on iphone
+    height: auto;
+  }
+
   @media screen and (min-width: $normal){
     justify-content: center;
     height: 440px;

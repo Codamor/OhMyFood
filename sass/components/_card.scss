@@ -69,6 +69,10 @@
     width: 500px;
   }
 
+  & a{
+    display: block;
+  }
+
   &__image {
     position: relative;
     width: 100%;
