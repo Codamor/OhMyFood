@@ -618,6 +618,11 @@ body {
   width: 100%;
   margin: 20px 0;
 }
+@media screen and (min-width: 430px) {
+  .component {
+    width: 370px;
+  }
+}
 .component__title {
   margin: 20px 0;
   font-size: 1.2em;
