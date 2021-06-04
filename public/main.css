@@ -628,10 +628,20 @@ body {
   }
 }
 .component__title {
+  position: relative;
   margin: 20px 0;
   font-size: 1.2em;
   font-weight: 300;
   text-transform: uppercase;
+}
+.component__title:after {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #98e2cf;
 }
 .component__box {
   display: flex;
