@@ -32,7 +32,6 @@
   position: relative;
   left: 31px;
   &--menu{
-    position: relative;
     left: 36px;
   }
 }
@@ -44,6 +43,9 @@
   background: linear-gradient($color-secondary,  $color-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  &--menu{
+    right: 0;
+  }
 }
 
 
