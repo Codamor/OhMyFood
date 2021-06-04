@@ -184,6 +184,9 @@ body {
     width: 500px;
   }
 }
+.card-restaurant a {
+  display: block;
+}
 .card-restaurant__image {
   position: relative;
   width: 100%;
@@ -597,7 +600,6 @@ body {
 }
 @media screen and (min-width: 376px) {
   .menu__title {
-    justify-content: space-between;
     margin: 0 auto;
     font-size: 1.8em;
   }
@@ -737,6 +739,11 @@ body {
   width: 100%;
   height: auto;
   background-color: whitesmoke;
+}
+@media screen and (min-width: 376px) {
+  .explore {
+    height: auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   .explore {
