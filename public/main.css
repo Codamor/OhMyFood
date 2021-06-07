@@ -397,14 +397,11 @@ body {
   }
 }
 @keyframes food-jump {
-  0% {
-    transform: rotate(180deg);
-  }
-  40% {
+  90% {
     transform: translateY(-100px) rotate(360deg);
   }
-  80% {
-    transform: rotate(460deg);
+  100% {
+    transform: rotate(720deg);
   }
 }
 @keyframes food-cooking {
@@ -596,7 +593,7 @@ body {
 }
 .menu__title {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   font-family: Shrikhand;
   font-size: 1.5em;
@@ -606,6 +603,11 @@ body {
   .menu__title {
     margin: 0 auto;
     font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 430px) {
+  .menu__title {
+    justify-content: space-around;
   }
 }
 .menu__icon {
@@ -670,6 +672,7 @@ body {
 /*---- cooking pot for loading spinner animation ---- */
 .cooking-pot {
   position: relative;
+  right: 40px;
   width: 200px;
   height: 100px;
   background-color: #fff;

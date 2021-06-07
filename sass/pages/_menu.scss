@@ -42,7 +42,7 @@
 
  &__title{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     font-family: Shrikhand;
     font-size: 1.5em;
@@ -51,6 +51,9 @@
       margin: 0 auto;
       font-size: 1.8em;
     }
+   @media screen and (min-width: $small){
+     justify-content: space-around;
+   }
   }
   &__icon{
     position: relative;
