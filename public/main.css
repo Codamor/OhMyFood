@@ -397,14 +397,11 @@ body {
   }
 }
 @keyframes food-jump {
-  0% {
-    transform: rotate(180deg);
-  }
-  40% {
+  90% {
     transform: translateY(-100px) rotate(360deg);
   }
-  80% {
-    transform: rotate(460deg);
+  100% {
+    transform: rotate(720deg);
   }
 }
 @keyframes food-cooking {
