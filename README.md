@@ -1,97 +1,132 @@
 # OhMyFood
 
-## Scénario
+![OhMyFood](OhMyFood_capture.png "OhMyFood")
 
-Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.
-
-L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
-
-
-## Identité graphique
-
-Polices :
-* logo et titre : Shirkhand,
-* texte: Roboto.
-
-Couleurs :
-* primaire : #9356DC,
-* secondaire : #FF79DA,
-* tertiaire : #99E2D0.
-
-## Technologies
-
-Le développement est en CSS, sans javascript.
-
-Aucun framework utilisé.
-
-Utilisation de SaSS recommandée.
-
-## Compatibilité
-
-Approche mobile - first.
-
-L'ensemble du site doit être responsive sur mobile, tablette et desktop.
-
-Le code doit être conforme aux normes W3C.
+## Table of contents
+- [Context](#context)
+- [Demonstration](#demonstration)
+- [What this project allowed me to practice](#what-this-project-allow-me-to-practice)
+  - [Skills](#skills)
+  - [Technologies / Methods](#technologies--methods)
+- [Resources](#resources)
+- [Expected deliverables](#expected-deliverables)
+  - [Header](#header-)
+  - [Home page](#home-page-)
+  - [Menu pages](#menu-pages-)
+  - [Footer](#footer-)
+  - [Graphic effects and animations](#graphic-effects-and-animations)
+    - [Buttons](#buttons-)
+    - [Home page](#home-page--1)
+    - [Menu pages](#menu-pages--1)
+  - [Graphic identity](#graphic-identity)
+    - [Fonts](#fonts-)
+    - [Colors](#colors-)
+- [Compatibility](#compatibility)
 
 
-## Livrables attendus
+## Demonstration
 
-### Contenu des pages
+**OhMyFood!** is visible on https://codamor.github.io/OhMyFood/
 
-Page d’accueil :
+## Context
 
-* affichage de la localisation des restaurants,
-* une courte présentation de l’entreprise,
-* une section contenant les 4 menus sous forme cartes,
-* au clic sur la carte, l’utilisateur est redirigé vers la page du menu.
+**OhMyFood!** is a young startup that would like to impose itself on the catering market.
 
 
-Pages de menu :
 
-* 4 pages de contenant chacune le menu d'un restaurant.
+## What this project allow me to practice
 
-Footer :
+### Skills
 
-* le footer est identique sur toutes les pages,
-* au clic sur contact, un renvoi vers une adresse email est effectué.
+* Cutting and integration of a model,
+* structure a web page with HTML5,
+* format a web page with CSS3,
+* create animations with CSS.
 
-Header :
+### Technologies / methods
 
-* le header est présent sur toutes les pages,
-* sur la page d'accueil, il contient le logo du site,
-* sur les pages de menu, il contient en plus un bouton de retour à la page d'accueil.
+* Positioning with Grid and FlexBox,
+* CSS with SaSS,
+* BEM naming convention,
+* responsive design with media queries.
+
+## Resources
+
+* desktop model,
+* mobile model.
+
+## Expected deliverables
+
+### Header:
+
+* the header is present on all pages,
+* on the home page, it contains the site logo,
+* on the menu pages, it also contains a button to return to the home page.
+
+### Home page :
+
+* display of the location of restaurants,
+* a section containing the 4 menus in card form,
+* when clicking on the map, the user is redirected to the menu page.
 
 
-### Effets graphiques et animations
+### Menu pages:
 
-Les effets accessibles au clic ou au survol sont visibles sur la maquette.
+* 4 pages of each containing the menu of a restaurant.
 
-Ils doivent utiliser les animations ou transitions CSS seulement.
+### Footer:
+
+* the footer is identical on all pages,
+* when you click on contact, a referral to an email address is made.
+
+### Graphic effects and animations
+
+Effects accessible by clicking or hovering are visible on the model.
+They should use CSS animations or transitions only.
 
 
-Boutons :
+#### Buttons:
 
-* au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir,
-* l’ombre portée devra également être plus visible,
-* un bouton "J’aime" en forme de cœur est présent sur la maquette,
-* au clic, il devra se remplir progressivement,
-* pour cette première version, l’effet peut être apparaître au survol sur desktop au lieu du clic.
+* on hover, the background color of the main buttons should lighten slightly,
+* the drop shadow should also be more visible,
+* a heart-shaped "Like" button is present on the model,
+* on click, it should fill gradually,
+* for this first version, the effect can appear on hover on desktop instead of click.
 
 
-Page d'accueil :
+#### Home page :
 
-* quand l’application aura plus de menus, un “loading spinner” sera nécessaire,
-* sur cette maquette, nous souhaitons en avoir un aperçu. Il devra apparaître pendant 1 à 3 secondes quand on arrive sur la page d'accueil, couvrir l'intégralité de l'écran, etutiliser les animations CSS (pas de librairie),
-* le design de ce loader n’est pas défini,toute proposition est donc la bienvenue tant qu’elle est cohérente avec la charte graphique du site.
+* when the application will have more menus, a “loading spinner” will be necessary,
+* on this model, we want to have a preview. It should appear for 1 to 3 seconds when you get to the home page, cover the entire screen, and use CSS animations (no library),
+* the design of this loader is free
 
-Pages de menu :
-* à ’arrivée sur la page, les plats devront apparaître progressivement avec un léger décalage dans le temps,
-* ils pourront soit apparaître un par un, soit par groupe“Entrée”, “Plat” et “Dessert”, 
-* un exemple de l’effet attendu est fourni,
-* le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus,
-* cela fait apparaître une petite coche à droite du plat,
-* cette coche devra coulisser dela droite vers la gauche,
-* pour cette première version, l’effet peut apparaître au survol sur desktop au lieu du clic, 
-* si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension, 
-* un exemple de l’effet attendu est fourni.
+#### Menu Pages:
+* upon arrival on the page, the dishes should appear gradually with a slight time lag,
+* they can either appear one by one, or by group “Starter”, “Main course” and “Dessert”,
+* an example of the expected effect is provided,
+* this makes a small tick appear to the right of the dish,
+* this tick must slide from right to left,
+* for this first version, the effect can appear on hover on desktop instead of click,
+* if the title of the dish is too long, it will have to be cropped with ellipsis.
+
+
+### Graphic identity
+
+#### Fonts:
+* logo and title: Shirkhand,
+* text: Roboto.
+
+#### Colors:
+* primary: #9356DC,
+* secondary: #FF79DA,
+* tertiary: #99E2D0.
+
+
+## Compatibility
+
+Mobile-first approach.
+
+The entire site had to be responsive.
+
+The code had to comply with W3C standards.
+
