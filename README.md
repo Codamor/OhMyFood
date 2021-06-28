@@ -1,38 +1,17 @@
 # OhMyFood
 
-## Scénario
+## Présentation
 
 Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.
 
-L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
+Je dois développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
 
 
-## Identité graphique
+## A ma disposition
 
-Polices :
-* logo et titre : Shirkhand,
-* texte: Roboto.
+Je dispose de la maquette mobile du site.
 
-Couleurs :
-* primaire : #9356DC,
-* secondaire : #FF79DA,
-* tertiaire : #99E2D0.
-
-## Technologies
-
-Le développement est en CSS, sans javascript.
-
-Aucun framework utilisé.
-
-Utilisation de SaSS recommandée.
-
-## Compatibilité
-
-Approche mobile - first.
-
-L'ensemble du site doit être responsive sur mobile, tablette et desktop.
-
-Le code doit être conforme aux normes W3C.
+L'adaptation tablette et desktop est libre.
 
 
 ## Livrables attendus
@@ -87,11 +66,41 @@ Page d'accueil :
 
 Pages de menu :
 * à ’arrivée sur la page, les plats devront apparaître progressivement avec un léger décalage dans le temps,
-* ils pourront soit apparaître un par un, soit par groupe“Entrée”, “Plat” et “Dessert”, 
+* ils pourront soit apparaître un par un, soit par groupe“Entrée”, “Plat” et “Dessert”,
 * un exemple de l’effet attendu est fourni,
 * le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus,
 * cela fait apparaître une petite coche à droite du plat,
 * cette coche devra coulisser dela droite vers la gauche,
-* pour cette première version, l’effet peut apparaître au survol sur desktop au lieu du clic, 
-* si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension, 
+* pour cette première version, l’effet peut apparaître au survol sur desktop au lieu du clic,
+* si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension,
 * un exemple de l’effet attendu est fourni.
+
+
+## Identité graphique
+
+Polices :
+* logo et titre : Shirkhand,
+* texte: Roboto.
+
+Couleurs :
+* primaire : #9356DC,
+* secondaire : #FF79DA,
+* tertiaire : #99E2D0.
+
+## Technologies
+
+Le développement est en CSS, sans javascript.
+
+Aucun framework utilisé.
+
+Utilisation de SaSS recommandée.
+
+## Compatibilité
+
+Approche mobile - first.
+
+L'ensemble du site doit être responsive sur mobile, tablette et desktop.
+
+Le code doit être conforme aux normes W3C.
+
+
