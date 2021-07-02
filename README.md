@@ -4,14 +4,29 @@
 
 Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.
 
-Je dois développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
+J'ai' développé un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
 
+## Ce que ce projet m'a appris
+
+### Principales compétences développées
+
+* Découpage et intégration d'une maquette,
+* structurer une page web avec HTML5,
+* mettre en forme une page web avec CSS3.
+
+### Principales technologies / méthodes utilisées
+
+* Positionnement avec Grid et FlexBox,
+* responsive design avec les medias queries,
+* CSS avec SaSS,
+* Convention de nommage BEM,
+* animations avec CSS.
 
 ## A ma disposition
 
-Je dispose de la maquette mobile du site.
+J'ai disposé de la maquette mobile du site.
 
-L'adaptation tablette et desktop est libre.
+L'adaptation tablette et desktop était libre.
 
 
 ## Livrables attendus
@@ -21,7 +36,6 @@ L'adaptation tablette et desktop est libre.
 Page d’accueil :
 
 * affichage de la localisation des restaurants,
-* une courte présentation de l’entreprise,
 * une section contenant les 4 menus sous forme cartes,
 * au clic sur la carte, l’utilisateur est redirigé vers la page du menu.
 
