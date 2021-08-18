@@ -11,32 +11,25 @@
 Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.
 
 
-## Présentation
+## Présentation du projet
 
 L'objectif a été d'intégrer la page d'accueil et les 4 pages de menus.
 
 ## Ce que ce projet m'a appris de pratiquer
 
-### Principales compétences
+### Compétences
 
 * Découpage et intégration d'une maquette,
 * structurer une page web avec HTML5,
-* mettre en forme une page web avec CSS3.
+* mettre en forme une page web avec CSS3,
+* créer des animations avec CSS.
 
-### Principales technologies / méthodes
+### Technologies / méthodes
 
 * Positionnement avec Grid et FlexBox,
-* responsive design,
 * CSS avec SaSS,
-* convention de nommage BEM,
-* animations avec CSS.
-
-## A ma disposition
-
-J'ai disposé de la maquette mobile du site.
-
-L'adaptation tablette et desktop était libre.
-
+* convention de nommage BEM, 
+* responsive design avec les medias queries.
 
 ## Livrables attendus
 
@@ -99,7 +92,15 @@ Pages de menu :
 * un exemple de l’effet attendu est fourni.
 
 
-## Identité graphique
+## A ma disposition
+
+J'ai disposé de la maquette mobile du site.
+
+L'adaptation tablette et desktop était libre.
+
+## Consignes
+
+### Identité graphique
 
 Polices :
 * logo et titre : Shirkhand,
@@ -110,7 +111,7 @@ Couleurs :
 * secondaire : #FF79DA,
 * tertiaire : #99E2D0.
 
-## Technologies
+### Technologies
 
 Le développement est en CSS, sans javascript.
 
@@ -118,12 +119,11 @@ Aucun framework utilisé.
 
 Utilisation de SaSS recommandée.
 
-## Compatibilité
+### Compatibilité
 
 Approche mobile - first.
 
 L'ensemble du site devait être responsive.
 
 Le code devait être conforme aux normes W3C.
-
 
