@@ -4,7 +4,7 @@
 
 # OhMyFood
 
-![OhMyFood](OhMyFood_capture.png "Reservia")
+![OhMyFood](OhMyFood_capture.png "OhMyFood")
 
 ## Présentation du contexte
 
