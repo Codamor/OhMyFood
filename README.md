@@ -1,25 +1,34 @@
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
+
 # OhMyFood
 
-## Présentation
+![OhMyFood](OhMyFood_capture.png "Reservia")
+
+## Présentation du contexte
 
 Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.
 
-J'ai' développé un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
 
-## Ce que ce projet m'a appris
+## Présentation
 
-### Principales compétences développées
+L'objectif a été d'intégrer la page d'accueil et les 4 pages de menus.
+
+## Ce que ce projet m'a appris de pratiquer
+
+### Principales compétences
 
 * Découpage et intégration d'une maquette,
 * structurer une page web avec HTML5,
 * mettre en forme une page web avec CSS3.
 
-### Principales technologies / méthodes utilisées
+### Principales technologies / méthodes
 
 * Positionnement avec Grid et FlexBox,
-* responsive design avec les medias queries,
+* responsive design,
 * CSS avec SaSS,
-* Convention de nommage BEM,
+* convention de nommage BEM,
 * animations avec CSS.
 
 ## A ma disposition
@@ -113,8 +122,8 @@ Utilisation de SaSS recommandée.
 
 Approche mobile - first.
 
-L'ensemble du site doit être responsive sur mobile, tablette et desktop.
+L'ensemble du site devait être responsive.
 
-Le code doit être conforme aux normes W3C.
+Le code devait être conforme aux normes W3C.
 
 
