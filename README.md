@@ -11,10 +11,6 @@
 Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.
 
 
-## Présentation du projet
-
-L'objectif a été d'intégrer la page d'accueil et les 4 pages de menus.
-
 ## Ce que ce projet m'a appris de pratiquer
 
 ### Compétences
