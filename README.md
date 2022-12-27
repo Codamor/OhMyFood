@@ -1,125 +1,121 @@
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
-
-
 # OhMyFood
 
 ![OhMyFood](OhMyFood_capture.png "OhMyFood")
 
-## Présentation du contexte
+## Presentation of the context
 
-Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.
-
-
-## Ce que ce projet m'a appris de pratiquer
-
-### Compétences
-
-* Découpage et intégration d'une maquette,
-* structurer une page web avec HTML5,
-* mettre en forme une page web avec CSS3,
-* créer des animations avec CSS.
-
-### Technologies / méthodes
-
-* Positionnement avec Grid et FlexBox,
-* CSS avec SaSS,
-* convention de nommage BEM, 
-* responsive design avec les medias queries.
-
-## Livrables attendus
-
-### Contenu des pages
-
-Page d’accueil :
-
-* affichage de la localisation des restaurants,
-* une section contenant les 4 menus sous forme cartes,
-* au clic sur la carte, l’utilisateur est redirigé vers la page du menu.
+Ohmyfood! is a young startup that would like to impose itself on the catering market.
 
 
-Pages de menu :
+## What this project taught me to practice
 
-* 4 pages de contenant chacune le menu d'un restaurant.
+### Skills
 
-Footer :
+* Cutting and integration of a model,
+* structure a web page with HTML5,
+* format a web page with CSS3,
+* create animations with CSS.
 
-* le footer est identique sur toutes les pages,
-* au clic sur contact, un renvoi vers une adresse email est effectué.
+### Technologies / methods
 
-Header :
+* Positioning with Grid and FlexBox,
+* CSS with SaSS,
+* BEM naming convention,
+* responsive design with media queries.
 
-* le header est présent sur toutes les pages,
-* sur la page d'accueil, il contient le logo du site,
-* sur les pages de menu, il contient en plus un bouton de retour à la page d'accueil.
+## Expected deliverables
 
+### Page content
 
-### Effets graphiques et animations
+Home page :
 
-Les effets accessibles au clic ou au survol sont visibles sur la maquette.
-
-Ils doivent utiliser les animations ou transitions CSS seulement.
-
-
-Boutons :
-
-* au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir,
-* l’ombre portée devra également être plus visible,
-* un bouton "J’aime" en forme de cœur est présent sur la maquette,
-* au clic, il devra se remplir progressivement,
-* pour cette première version, l’effet peut être apparaître au survol sur desktop au lieu du clic.
+* display of the location of restaurants,
+* a section containing the 4 menus in card form,
+* when clicking on the map, the user is redirected to the menu page.
 
 
-Page d'accueil :
+Menu Pages:
 
-* quand l’application aura plus de menus, un “loading spinner” sera nécessaire,
-* sur cette maquette, nous souhaitons en avoir un aperçu. Il devra apparaître pendant 1 à 3 secondes quand on arrive sur la page d'accueil, couvrir l'intégralité de l'écran, etutiliser les animations CSS (pas de librairie),
-* le design de ce loader n’est pas défini,toute proposition est donc la bienvenue tant qu’elle est cohérente avec la charte graphique du site.
+* 4 pages of each containing the menu of a restaurant.
 
-Pages de menu :
-* à ’arrivée sur la page, les plats devront apparaître progressivement avec un léger décalage dans le temps,
-* ils pourront soit apparaître un par un, soit par groupe“Entrée”, “Plat” et “Dessert”,
-* un exemple de l’effet attendu est fourni,
-* le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus,
-* cela fait apparaître une petite coche à droite du plat,
-* cette coche devra coulisser dela droite vers la gauche,
-* pour cette première version, l’effet peut apparaître au survol sur desktop au lieu du clic,
-* si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension,
-* un exemple de l’effet attendu est fourni.
+Footer:
+
+* the footer is identical on all pages,
+* when you click on contact, a referral to an email address is made.
+
+Header:
+
+* the header is present on all pages,
+* on the home page, it contains the site logo,
+* on the menu pages, it also contains a button to return to the home page.
 
 
-## A ma disposition
+### Graphic effects and animations
 
-J'ai disposé de la maquette mobile du site.
+Effects accessible by clicking or hovering are visible on the model.
 
-L'adaptation tablette et desktop était libre.
+They should use CSS animations or transitions only.
 
-## Consignes
 
-### Identité graphique
+Buttons:
 
-Polices :
-* logo et titre : Shirkhand,
-* texte: Roboto.
+* on hover, the background color of the main buttons should lighten slightly,
+* the drop shadow should also be more visible,
+* a heart-shaped "Like" button is present on the model,
+* on click, it should fill gradually,
+* for this first version, the effect can appear on hover on desktop instead of click.
 
-Couleurs :
-* primaire : #9356DC,
-* secondaire : #FF79DA,
-* tertiaire : #99E2D0.
+
+Home page :
+
+* when the application will have more menus, a “loading spinner” will be necessary,
+* on this model, we want to have a preview. It should appear for 1 to 3 seconds when you get to the home page, cover the entire screen, and use CSS animations (no library),
+* the design of this loader is not defined, any proposal is therefore welcome as long as it is consistent with the graphic charter of the site.
+
+Menu Pages:
+* upon arrival on the page, the dishes should appear gradually with a slight time lag,
+* they can either appear one by one, or by group “Starter”, “Main course” and “Dessert”,
+* an example of the expected effect is provided,
+* the visitor can add the dishes he wants to his order by clicking on it,
+* this makes a small tick appear to the right of the dish,
+* this tick must slide from right to left,
+* for this first version, the effect can appear on hover on desktop instead of click,
+* if the title of the dish is too long, it will have to be cropped with ellipsis,
+* an example of the expected effect is provided.
+
+
+## To my disposition
+
+I had the mobile model of the site.
+
+The tablet and desktop adaptation was free.
+
+## Instructions
+
+### Graphic identity
+
+Fonts:
+* logo and title: Shirkhand,
+* text: Roboto.
+
+Colors:
+* primary: #9356DC,
+* secondary: #FF79DA,
+* tertiary: #99E2D0.
 
 ### Technologies
 
-Le développement est en CSS, sans javascript.
+The development is in CSS, without javascript.
 
-Aucun framework utilisé.
+No framework used.
 
-Utilisation de SaSS recommandée.
+Use of SaSS recommended.
 
-### Compatibilité
+### Compatibility
 
-Approche mobile - first.
+Mobile-first approach.
 
-L'ensemble du site devait être responsive.
+The entire site had to be responsive.
 
-Le code devait être conforme aux normes W3C.
+The code had to comply with W3C standards.
 
